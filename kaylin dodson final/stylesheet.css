@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lemonada');
+
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("heroimg.jpg");
+
+    /* Set a specific height */
+    height: 25%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffebd3;
+    font-family: "Lemonada"
+}
+
+.dat-boi {
+	width: 60px;
+	height: 80px;
+}
+
+#kaylin {
+	font-family: "Inconsolata";
+	font-size: 40px;
+}
+
+.abtme {
+	font-size: 20px;
+}
+
+.drag {
+	font-style: 15px;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #b26800;
+}
+
+a:link {
+	color: #b26800;
+}
+
+.quot {
+	color: #FFBA68;
+	text-align: right;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	font-family: "Lemonada";
+}
+
+.pics {
+	padding-bottom: 30px;
+	background-color: #FFBA68;
+}
+
+body {
+	background-color: #FFBA68;
+}
+
+.extra {
+	float: left;
+}
